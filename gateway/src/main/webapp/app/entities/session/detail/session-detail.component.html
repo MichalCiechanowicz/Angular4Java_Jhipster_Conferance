@@ -1,0 +1,44 @@
+<div class="row justify-content-center">
+  <div class="col-8">
+    <div *ngIf="session">
+      <h2 data-cy="sessionDetailsHeading"><span jhiTranslate="gatewayApp.session.detail.title">Session</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ session.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="gatewayApp.session.title">Title</span></dt>
+        <dd>
+          <span>{{ session.title }}</span>
+        </dd>
+        <dt><span jhiTranslate="gatewayApp.session.description">Description</span></dt>
+        <dd>
+          <span>{{ session.description }}</span>
+        </dd>
+        <dt><span jhiTranslate="gatewayApp.session.startTime">Start Time</span></dt>
+        <dd>
+          <span>{{ session.startTime | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="gatewayApp.session.endTime">End Time</span></dt>
+        <dd>
+          <span>{{ session.endTime | formatMediumDatetime }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/session', session.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

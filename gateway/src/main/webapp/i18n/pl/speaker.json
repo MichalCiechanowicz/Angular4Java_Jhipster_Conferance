@@ -1,0 +1,29 @@
+{
+  "gatewayApp": {
+    "speaker": {
+      "home": {
+        "title": "Speaker",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Speaker",
+        "createOrEditLabel": "Dodaj lub edytuj: Speaker",
+        "notFound": "No Speakers found"
+      },
+      "created": "Utworzono nowy obiekt typu Speaker z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Speaker z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Speaker z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Speaker {{ id }}?"
+      },
+      "detail": {
+        "title": "Speaker"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "sureName": "Sure Name",
+      "email": "Email",
+      "twitter": "Twitter",
+      "bio": "Bio",
+      "sessions": "Sessions"
+    }
+  }
+}

@@ -1,0 +1,431 @@
+2021-05-21 14:40:35.432  WARN 1076 --- [restartedMain] o.s.v.a.LifecycleAwareSessionManager     : Cannot enhance VaultToken to a LoginToken: Token self-lookup failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8200/v1/auth/token/lookup-self": Connect to localhost:8200 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8200 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2021-05-21 14:40:39.593  INFO 1076 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : The following profiles are active: composite,dev,swagger
+2021-05-21 14:40:40.945  WARN 1076 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-05-21 14:40:41.002  WARN 1076 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-05-21 14:40:42.098 DEBUG 1076 --- [restartedMain] i.m.c.u.i.logging.InternalLoggerFactory  : Using SLF4J as the default logging framework
+2021-05-21 14:40:43.696  WARN 1076 --- [restartedMain] uration$$EnhancerBySpringCGLIB$$4bf417b9 : The 'spring.cloud.config.server.vault.skipSslValidation' property is not supported by this Vault environment repository implementation. Use the 'spring.cloud.config.server.vault.ssl` properties to provide custom keyStore and trustStore material instead.
+2021-05-21 14:40:43.878 DEBUG 1076 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Registering CORS filter
+2021-05-21 14:40:43.921  INFO 1076 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Web application configuration, using profiles: composite
+2021-05-21 14:40:43.923  INFO 1076 --- [restartedMain] i.g.j.registry.config.WebConfigurer      : Web application fully configured
+2021-05-21 14:40:44.285  WARN 1076 --- [restartedMain] i.g.j.r.security.jwt.TokenProvider       : Warning: the JWT key used is not Base64-encoded. We recommend using the `jhipster.security.authentication.jwt.base64-secret` key for optimum security.
+2021-05-21 14:40:44.982 DEBUG 1076 --- [restartedMain] i.g.j.r.config.AsyncConfiguration        : Creating Async Task Executor
+2021-05-21 14:40:45.621 DEBUG 1076 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2021-05-21 14:40:45.628 DEBUG 1076 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 6 ms
+2021-05-21 14:40:45.928  WARN 1076 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-05-21 14:40:46.311  INFO 1076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-05-21 14:40:46.311  INFO 1076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-05-21 14:40:46.321  INFO 1076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1621604446318 with initial instances count: 0
+2021-05-21 14:40:46.431  INFO 1076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-05-21 14:40:46.432  INFO 1076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-05-21 14:40:46.433  INFO 1076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-05-21 14:40:46.434  INFO 1076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-05-21 14:40:47.063 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:40:47.067 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:40:47.151  INFO 1076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-05-21 14:40:47.151  INFO 1076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-05-21 14:40:47.153  INFO 1076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-05-21 14:40:47.153  INFO 1076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-05-21 14:40:47.481  INFO 1076 --- [restartedMain] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2021-05-21 14:40:47.980  INFO 1076 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : Started JHipsterRegistryApp in 21.094 seconds (JVM running for 22.552)
+2021-05-21 14:40:47.986  INFO 1076 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Application 'jhipster-registry' is running! Access URLs:
+	Local: 		http://localhost:8761/
+	External: 	http://192.168.0.13:8761/
+	Profile(s): 	[composite, dev, swagger]
+----------------------------------------------------------
+2021-05-21 14:40:47.987  INFO 1076 --- [restartedMain] i.g.j.registry.JHipsterRegistryApp       : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server!
+----------------------------------------------------------
+2021-05-21 14:40:52.068 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:40:52.068 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:40:52.275  WARN 1076 --- [XNIO-1 task-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: CONFERENCE - conference:3339c6bda9a2f1a92a4842c4f1ceff76
+2021-05-21 14:40:52.275  WARN 1076 --- [XNIO-1 task-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): CONFERENCE - conference:3339c6bda9a2f1a92a4842c4f1ceff76
+2021-05-21 14:40:52.366  WARN 1076 --- [XNIO-1 task-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: GATEWAY - gateway:c9fb35855c58f764b9f03020dbca7d7f
+2021-05-21 14:40:52.366  WARN 1076 --- [XNIO-1 task-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): GATEWAY - gateway:c9fb35855c58f764b9f03020dbca7d7f
+2021-05-21 14:40:57.083 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:40:57.085 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:40:57.086 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Adding instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' with URL: http://192.168.0.13:8080/
+2021-05-21 14:40:57.087 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:40:57.087 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Adding instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' with URL: http://192.168.0.13:8081/
+2021-05-21 14:40:57.097  INFO 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Zuul routes have changed - refreshing the configuration
+2021-05-21 14:40:57.099 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:02.110 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:02.110 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:02.112 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:02.112 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:02.113 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:02.113 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:07.117 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:07.117 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:07.119 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:07.120 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:07.120 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:07.121 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:12.131 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:12.131 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:12.133 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:12.133 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:12.134 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:12.134 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:17.138 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:17.138 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:17.141 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:17.141 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:17.142 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:17.143 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:22.146 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:22.146 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:22.148 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:22.148 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:22.149 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:22.150 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:27.152 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:27.152 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:27.154 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:27.155 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:27.155 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:27.156 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:32.162 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:32.162 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:32.164 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:32.164 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:32.166 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:32.167 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:37.178 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:37.178 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:37.180 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:37.180 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:37.181 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:37.181 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:42.190 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:42.190 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:42.192 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:42.192 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:42.193 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:42.194 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:47.206 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:47.207 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:47.208 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:47.208 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:47.208 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:47.209 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:52.217 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:52.217 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:52.219 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:52.219 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:52.220 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:52.220 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:41:57.231 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:41:57.231 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:41:57.233 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:41:57.234 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:41:57.234 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:41:57.235 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:02.237 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:02.238 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:02.240 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:02.240 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:02.241 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:02.241 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:07.252 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:07.252 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:07.254 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:07.254 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:07.255 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:07.255 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:12.270 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:12.271 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:12.273 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:12.273 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:12.274 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:12.274 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:17.285 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:17.285 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:17.287 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:17.287 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:17.288 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:17.288 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:22.292 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:22.292 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:22.294 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:22.294 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:22.295 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:22.295 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:27.297 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:27.297 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:27.300 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:27.300 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:27.301 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:27.301 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:32.304 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:32.304 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:32.306 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:32.308 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:32.308 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:32.309 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:37.326 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:37.326 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:37.328 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:37.328 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:37.329 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:37.329 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:42.343 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:42.343 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:42.345 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:42.345 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:42.346 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:42.346 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:47.349 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:47.349 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:47.352 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:47.352 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:47.353 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:47.353 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:52.364 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:52.364 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:52.367 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:52.367 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:52.368 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:52.369 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:42:57.381 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:42:57.382 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:42:57.384 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:42:57.386 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:42:57.386 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:42:57.387 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:02.395 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:02.396 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:02.398 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:02.398 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:02.399 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:02.400 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:07.406 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:07.406 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:07.408 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:07.408 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:07.409 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:07.409 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:12.421 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:12.421 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:12.423 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:12.423 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:12.424 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:12.425 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:17.432 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:17.432 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:17.434 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:17.435 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:17.435 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:17.436 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:22.439 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:22.439 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:22.441 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:22.441 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:22.442 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:22.442 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:27.454 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:27.454 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:27.456 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:27.456 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:27.457 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:27.457 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:32.461 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:32.461 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:32.462 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:32.463 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:32.463 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:32.464 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:37.469 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:37.469 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:37.471 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:37.471 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:37.472 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:37.472 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:42.478 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:42.478 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:42.480 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:42.480 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:42.481 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:42.481 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:47.494 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:47.494 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:47.496 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:47.496 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:47.497 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:47.497 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:52.504 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:52.504 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:52.506 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:52.507 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:52.507 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:52.507 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:43:57.509 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:43:57.509 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:43:57.511 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:43:57.512 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:43:57.512 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:43:57.512 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:02.522 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:02.522 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:02.524 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:02.524 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:02.525 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:02.525 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:07.529 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:07.529 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:07.531 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:07.532 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:07.532 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:07.533 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:12.542 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:12.542 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:12.544 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:12.544 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:12.544 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:12.545 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:17.552 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:17.552 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:17.553 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:17.554 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:17.554 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:17.555 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:22.560 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:22.561 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:22.562 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:22.562 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:22.563 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:22.564 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:27.569 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:27.569 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:27.571 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:27.571 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:27.572 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:27.572 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:32.574 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:32.574 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:32.576 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:32.576 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:32.577 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:32.577 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:37.588 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:37.588 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:37.590 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:37.590 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:37.591 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:37.591 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:42.607 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:42.607 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:42.609 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:42.610 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:42.610 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:42.611 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:47.623 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:47.624 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:47.625 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:47.626 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:47.626 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:47.626 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:52.633 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:52.633 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:52.635 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:52.635 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:52.636 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:52.636 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:44:57.642 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:44:57.643 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:44:57.644 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:44:57.644 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:44:57.645 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:44:57.646 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:02.653 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:02.654 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:02.656 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:02.656 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:02.657 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:02.657 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:07.659 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:07.659 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:07.662 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:07.662 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:07.662 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:07.663 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:12.666 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:12.666 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:12.668 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:12.668 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:12.670 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:12.671 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:17.677 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:17.677 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:17.679 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:17.679 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:17.680 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:17.680 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:22.689 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:22.690 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:22.692 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:22.692 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:22.692 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:22.693 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:27.696 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:27.696 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:27.698 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:27.698 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:27.699 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:27.699 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:32.705 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:32.705 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:32.707 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:32.707 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:32.707 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:32.708 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:37.722 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:37.722 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:37.724 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:37.724 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:37.725 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:37.725 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:42.728 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:42.728 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:42.730 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:42.730 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:42.732 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:42.732 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:47.733 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:47.733 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:47.735 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:47.735 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:47.736 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:47.736 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:52.743 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:52.744 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:52.747 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:52.747 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:52.747 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:52.748 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:45:57.762 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:45:57.762 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:45:57.764 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:45:57.765 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:45:57.765 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:45:57.766 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:46:02.781 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:46:02.781 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:46:02.783 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:46:02.783 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:46:02.784 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:46:02.784 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:46:07.786 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:46:07.786 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:46:07.788 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:46:07.788 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:46:07.789 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:46:07.790 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null
+2021-05-21 14:46:12.802 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Enter: updateZuulRoutes() with argument[s] = []
+2021-05-21 14:46:12.802 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance gateway:c9fb35855c58f764b9f03020dbca7d7f - http://192.168.0.13:8080/ 
+2021-05-21 14:46:12.804 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'gateway:c9fb35855c58f764b9f03020dbca7d7f' already registered
+2021-05-21 14:46:12.805 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Checking instance conference:3339c6bda9a2f1a92a4842c4f1ceff76 - http://192.168.0.13:8081/ 
+2021-05-21 14:46:12.805 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Instance 'conference:3339c6bda9a2f1a92a4842c4f1ceff76' already registered
+2021-05-21 14:46:12.806 DEBUG 1076 --- [spring-vault-ThreadPoolTaskScheduler-1] i.g.j.r.service.ZuulUpdaterService       : Exit: updateZuulRoutes() with result = null

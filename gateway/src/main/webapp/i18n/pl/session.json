@@ -1,0 +1,28 @@
+{
+  "gatewayApp": {
+    "session": {
+      "home": {
+        "title": "Session",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Session",
+        "createOrEditLabel": "Dodaj lub edytuj: Session",
+        "notFound": "No Sessions found"
+      },
+      "created": "Utworzono nowy obiekt typu Session z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Session z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Session z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Session {{ id }}?"
+      },
+      "detail": {
+        "title": "Session"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "speakers": "Speakers"
+    }
+  }
+}

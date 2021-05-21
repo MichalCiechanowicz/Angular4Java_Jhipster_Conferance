@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "com.poweremabox.config.ApplicationProperties",
+      "sourceType": "com.poweremabox.config.ApplicationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
